@@ -163,7 +163,7 @@ section .main .button:hover i {
 
 .products {
   width: 100%;
-  height: 140vh;
+  height: 65vh;
   padding: 25px;
 }
 
@@ -271,4 +271,23 @@ section .main .button:hover i {
   background: linear-gradient(to right, #c72092, #6c14d0);
   color: white;
   border-radius: 8px;
+}
+
+/* About */
+
+.about {
+  width: 100%;
+  height: 100vh;
+  padding: 35px 0;
+}
+
+.about h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
